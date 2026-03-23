@@ -1,0 +1,348 @@
+[
+  {
+    "model": "core.profile",
+    "pk": 1,
+    "fields": {
+      "name": "Your Name",
+      "title": "Software Engineer & AI Researcher",
+      "tagline": "Building AI-Powered Solutions for Real-World Impact",
+      "location": "Dhaka, Bangladesh",
+      "institution": "Your University",
+      "bio": "Staff Software Engineer with proven expertise architecting scalable systems and leading cross-functional teams that deliver measurable impact.",
+      "bio_detail": "I've built and mentored engineering teams, consistently delivering systems with 99.9% uptime while maintaining rapid development velocity.",
+      "email": "you@email.com",
+      "phone": "+880 1700 000000",
+      "github": "https://github.com/yourusername",
+      "linkedin": "https://linkedin.com/in/yourprofile",
+      "instagram": "",
+      "resume": "",
+      "cv": "",
+      "photo": "",
+      "years_experience": 5,
+      "projects_delivered": 15,
+      "ai_solutions": 4,
+      "teams_led": 4
+    }
+  },
+  {
+    "model": "core.education",
+    "pk": 1,
+    "fields": {
+      "degree": "Master of Science — Computer Science",
+      "institution": "Your University",
+      "location": "Dhaka, Bangladesh",
+      "start_date": "2022-09",
+      "end_date": "2024-05",
+      "order": 1
+    }
+  },
+  {
+    "model": "core.education",
+    "pk": 2,
+    "fields": {
+      "degree": "Bachelor of Science — Computer Science & Engineering",
+      "institution": "Your University",
+      "location": "Dhaka, Bangladesh",
+      "start_date": "2018-01",
+      "end_date": "2022-12",
+      "order": 2
+    }
+  },
+  {
+    "model": "core.achievement",
+    "pk": 1,
+    "fields": {
+      "title": "AWS Certified Cloud Practitioner",
+      "description": "Certified in cloud computing fundamentals and AWS services",
+      "year": 2024,
+      "order": 1
+    }
+  },
+  {
+    "model": "core.achievement",
+    "pk": 2,
+    "fields": {
+      "title": "Django REST Framework Expert",
+      "description": "Built and deployed 5+ production APIs using DRF",
+      "year": 2023,
+      "order": 2
+    }
+  },
+  {
+    "model": "core.skillcategory",
+    "pk": 1,
+    "fields": { "name": "Frontend", "order": 1 }
+  },
+  {
+    "model": "core.skillcategory",
+    "pk": 2,
+    "fields": { "name": "Backend", "order": 2 }
+  },
+  {
+    "model": "core.skillcategory",
+    "pk": 3,
+    "fields": { "name": "AI/ML", "order": 3 }
+  },
+  {
+    "model": "core.skillcategory",
+    "pk": 4,
+    "fields": { "name": "Database", "order": 4 }
+  },
+  {
+    "model": "core.skillcategory",
+    "pk": 5,
+    "fields": { "name": "Cloud/DevOps", "order": 5 }
+  },
+  {
+    "model": "core.skill",
+    "pk": 1,
+    "fields": { "category": 1, "name": "React", "years": 4, "order": 1 }
+  },
+  {
+    "model": "core.skill",
+    "pk": 2,
+    "fields": { "category": 1, "name": "TypeScript", "years": 3, "order": 2 }
+  },
+  {
+    "model": "core.skill",
+    "pk": 3,
+    "fields": { "category": 1, "name": "Tailwind CSS", "years": 3, "order": 3 }
+  },
+  {
+    "model": "core.skill",
+    "pk": 4,
+    "fields": { "category": 2, "name": "Python", "years": 5, "order": 1 }
+  },
+  {
+    "model": "core.skill",
+    "pk": 5,
+    "fields": { "category": 2, "name": "Django", "years": 4, "order": 2 }
+  },
+  {
+    "model": "core.skill",
+    "pk": 6,
+    "fields": { "category": 2, "name": "FastAPI", "years": 2, "order": 3 }
+  },
+  {
+    "model": "core.skill",
+    "pk": 7,
+    "fields": { "category": 3, "name": "LLMs", "years": 2, "order": 1 }
+  },
+  {
+    "model": "core.skill",
+    "pk": 8,
+    "fields": { "category": 3, "name": "RAG Pipelines", "years": 2, "order": 2 }
+  },
+  {
+    "model": "core.skill",
+    "pk": 9,
+    "fields": { "category": 3, "name": "OpenAI API", "years": 2, "order": 3 }
+  },
+  {
+    "model": "core.skill",
+    "pk": 10,
+    "fields": { "category": 4, "name": "PostgreSQL", "years": 4, "order": 1 }
+  },
+  {
+    "model": "core.skill",
+    "pk": 11,
+    "fields": { "category": 4, "name": "MongoDB", "years": 3, "order": 2 }
+  },
+  {
+    "model": "core.skill",
+    "pk": 12,
+    "fields": { "category": 5, "name": "Docker", "years": 3, "order": 1 }
+  },
+  {
+    "model": "core.skill",
+    "pk": 13,
+    "fields": { "category": 5, "name": "AWS", "years": 3, "order": 2 }
+  },
+  {
+    "model": "core.skill",
+    "pk": 14,
+    "fields": { "category": 5, "name": "GitHub Actions", "years": 3, "order": 3 }
+  },
+  {
+    "model": "core.experience",
+    "pk": 1,
+    "fields": {
+      "title": "Software Engineer",
+      "company": "Your Current Company",
+      "location": "Remote",
+      "start_date": "2024-01",
+      "end_date": "",
+      "is_current": true,
+      "job_type": "current",
+      "description": "Leading backend development for a scalable SaaS platform. Architecting microservices with Django and FastAPI, integrating LLM-powered features, and mentoring junior developers.",
+      "order": 1
+    }
+  },
+  {
+    "model": "core.experiencetechnology",
+    "pk": 1,
+    "fields": { "experience": 1, "name": "Django" }
+  },
+  {
+    "model": "core.experiencetechnology",
+    "pk": 2,
+    "fields": { "experience": 1, "name": "FastAPI" }
+  },
+  {
+    "model": "core.experiencetechnology",
+    "pk": 3,
+    "fields": { "experience": 1, "name": "PostgreSQL" }
+  },
+  {
+    "model": "core.experienceachievement",
+    "pk": 1,
+    "fields": { "experience": 1, "text": "Reduced API response time by 40% through query optimization", "order": 1 }
+  },
+  {
+    "model": "core.experienceachievement",
+    "pk": 2,
+    "fields": { "experience": 1, "text": "Led a team of 4 engineers to ship 3 major product features", "order": 2 }
+  },
+  {
+    "model": "core.experience",
+    "pk": 2,
+    "fields": {
+      "title": "Backend Developer",
+      "company": "Previous Company",
+      "location": "Dhaka, Bangladesh",
+      "start_date": "2022-01",
+      "end_date": "2023-12",
+      "is_current": false,
+      "job_type": "full_time",
+      "description": "Built RESTful APIs and integrated third-party services for an e-commerce platform serving thousands of users.",
+      "order": 2
+    }
+  },
+  {
+    "model": "core.experiencetechnology",
+    "pk": 4,
+    "fields": { "experience": 2, "name": "Django REST Framework" }
+  },
+  {
+    "model": "core.experiencetechnology",
+    "pk": 5,
+    "fields": { "experience": 2, "name": "Celery" }
+  },
+  {
+    "model": "core.experiencetechnology",
+    "pk": 6,
+    "fields": { "experience": 2, "name": "Redis" }
+  },
+  {
+    "model": "core.projectcategory",
+    "pk": 1,
+    "fields": { "name": "Full-Stack Development", "slug": "fullstack", "order": 1 }
+  },
+  {
+    "model": "core.projectcategory",
+    "pk": 2,
+    "fields": { "name": "AI/ML Application", "slug": "ai-ml", "order": 2 }
+  },
+  {
+    "model": "core.projectcategory",
+    "pk": 3,
+    "fields": { "name": "Backend Engineering", "slug": "backend", "order": 3 }
+  },
+  {
+    "model": "core.project",
+    "pk": 1,
+    "fields": {
+      "title": "AI-Powered Blog Platform",
+      "description": "Full-stack blogging platform with AI content moderation, real-time notifications, and a clean editorial interface built with Django + React.",
+      "category": 1,
+      "date": "Jan 2025",
+      "github_url": "https://github.com/yourusername/project1",
+      "live_url": "",
+      "is_featured": true,
+      "order": 1
+    }
+  },
+  {
+    "model": "core.projecttag",
+    "pk": 1,
+    "fields": { "project": 1, "name": "Django" }
+  },
+  {
+    "model": "core.projecttag",
+    "pk": 2,
+    "fields": { "project": 1, "name": "React" }
+  },
+  {
+    "model": "core.projecttag",
+    "pk": 3,
+    "fields": { "project": 1, "name": "PostgreSQL" }
+  },
+  {
+    "model": "core.projecttag",
+    "pk": 4,
+    "fields": { "project": 1, "name": "OpenAI API" }
+  },
+  {
+    "model": "core.project",
+    "pk": 2,
+    "fields": {
+      "title": "Django REST API Boilerplate",
+      "description": "Production-ready Django REST Framework starter with JWT auth, role-based permissions, Celery tasks, Docker setup, and comprehensive test suite.",
+      "category": 3,
+      "date": "Oct 2024",
+      "github_url": "https://github.com/yourusername/project2",
+      "live_url": "",
+      "is_featured": true,
+      "order": 2
+    }
+  },
+  {
+    "model": "core.projecttag",
+    "pk": 5,
+    "fields": { "project": 2, "name": "Django REST Framework" }
+  },
+  {
+    "model": "core.projecttag",
+    "pk": 6,
+    "fields": { "project": 2, "name": "Docker" }
+  },
+  {
+    "model": "core.projecttag",
+    "pk": 7,
+    "fields": { "project": 2, "name": "Celery" }
+  },
+  {
+    "model": "core.project",
+    "pk": 3,
+    "fields": {
+      "title": "LLM Document Q&A System",
+      "description": "RAG-based document question-answering system using LangChain, ChromaDB, and OpenAI. Supports PDF ingestion and conversational querying.",
+      "category": 2,
+      "date": "Aug 2024",
+      "github_url": "https://github.com/yourusername/project3",
+      "live_url": "",
+      "is_featured": true,
+      "order": 3
+    }
+  },
+  {
+    "model": "core.projecttag",
+    "pk": 8,
+    "fields": { "project": 3, "name": "Python" }
+  },
+  {
+    "model": "core.projecttag",
+    "pk": 9,
+    "fields": { "project": 3, "name": "LangChain" }
+  },
+  {
+    "model": "core.projecttag",
+    "pk": 10,
+    "fields": { "project": 3, "name": "ChromaDB" }
+  },
+  {
+    "model": "core.projecttag",
+    "pk": 11,
+    "fields": { "project": 3, "name": "OpenAI" }
+  }
+]
