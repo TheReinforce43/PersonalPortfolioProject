@@ -143,6 +143,11 @@
             <div class="achievement-title">{{ ach.title }}</div>
             <div class="achievement-desc">{{ ach.description }}</div>
             <div class="achievement-year">{{ ach.year }}</div>
+            {% if ach.supportiveLink %}
+              <div class="achievement-link">
+                <a href="{{ ach.supportiveLink }}" target="_blank" class="btn btn-sm btn-outline">View Details ↗</a>
+              </div>
+            {% endif %}
           </div>
           {% endfor %}
         </div>

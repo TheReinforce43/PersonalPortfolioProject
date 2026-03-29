@@ -74,6 +74,7 @@ class Achievement(models.Model):
     description = models.TextField()
     year = models.PositiveIntegerField()
     order = models.PositiveIntegerField(default=0)
+    supportiveLink = models.URLField(blank=True)
 
     class Meta:
         ordering = ['order']
