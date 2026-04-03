@@ -1,0 +1,24 @@
+python -c "
+content = b'''# Virtual Environment
+venv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Django
+db.sqlite3
+staticfiles/
+media/
+
+# Vercel
+uv.lock
+'''
+with open('.gitignore', 'wb') as f:
+    f.write(content)
+print('Done')
+"
