@@ -3,7 +3,7 @@ from decouple import config
 import dj_database_url
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY = config('Final_SECRET_KEY')
 
 
 DEBUG = True
@@ -62,7 +62,7 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 # Database
 DATABASES = {
     'default': dj_database_url.parse(
-        config('DATABASE_URL'),
+        config('Final_DATABASE_URL'),
         conn_max_age=600,
         ssl_require=True
     )
