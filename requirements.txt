@@ -10,5 +10,5 @@ tzdata==2025.3
 '''
 with open('requirements.txt', 'w', encoding='utf-8', newline='\n') as f:
     f.write(packages)
-print(' requirements.txt updated')
+print('requirements.txt updated')
 "
