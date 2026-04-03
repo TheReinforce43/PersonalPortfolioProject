@@ -1,13 +1,17 @@
 {
-    "buildCommand": "pip install -r requirements.txt",
-    "builds": [{
-        "src": "portfolio/wsgi.py",
-        "use": "@vercel/python",
-        "config": { 
-            "maxLambdaSize": "15mb", 
-            "runtime": "python3.12"
+    "version": 2,
+    "buildCommand": "bash portfolio/build_files.sh",
+    "installCommand": "pip install -r requirements.txt",
+    "builds": [
+        {
+            "src": "portfolio/wsgi.py",
+            "use": "@vercel/python",
+            "config": {
+                "maxLambdaSize": "15mb",
+                "runtime": "python3.12"
+            }
         }
-    }],
+    ],
     "routes": [
         {
             "src": "/(.*)",
